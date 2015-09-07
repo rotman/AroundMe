@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <corners android:radius="7dip"/>
+    <stroke android:color="#4daf4e" android:width="4dip"/>
+    <solid android:color="#4daf4e"/>
+</shape><!-- From: file:/C:/around%20me%20project%20good/AroundMeAndroidStudio-master-master/AroundMe/src/main/res/drawable/circlecounter.xml -->

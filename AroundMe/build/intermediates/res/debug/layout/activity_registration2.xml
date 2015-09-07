@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#5bb960">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/logoImage"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_marginTop="120dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#fff"
+            android:inputType="textEmailAddress"
+            android:textColor="#fff"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_action_person"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:layout_marginTop="-2dp"
+        android:hint="User Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_action_person"/>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:layout_marginTop="-2dp"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:id="@+id/pword"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_action_secure"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="registerOk"
+        android:textColor="#000"
+        android:id="@+id/register"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/login_register_button"/>
+
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Login"
+            android:textColor="#000"
+        android:onClick="backToLogin"
+        android:id="@+id/bktologin"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/login_register_button"/>
+
+
+
+
+        <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+ />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout><!-- From: file:/C:/around%20me%20project%20good/AroundMeAndroidStudio-master-master/AroundMe/src/main/res/layout/activity_registration2.xml -->

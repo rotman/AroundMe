@@ -1,0 +1,323 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AroundMe:
+* .gitignore
+* endpoint-libs/
+* endpoint-libs/libaroundmeapi-v1/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/LICENSE.txt
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/classpath-include
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/css/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/css/maven-base.css
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/css/maven-theme.css
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/css/print.css
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/css/site.css
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-api-client-android-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-api-client-appengine-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-api-client-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-api-client-gson-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-api-client-jackson2-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-api-client-java6-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-api-client-servlet-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-http-client-android-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-http-client-appengine-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-http-client-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-http-client-gson-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-http-client-jackson2-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-http-client-jdo-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-oauth-client-appengine-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-oauth-client-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-oauth-client-java6-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-oauth-client-jetty-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/google-oauth-client-servlet-dependencies.html
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/close.gif
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/collapsed.gif
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/expanded.gif
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/external.png
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/icon_error_sml.gif
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/icon_info_sml.gif
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/icon_success_sml.gif
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/icon_warning_sml.gif
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/logos/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/logos/build-by-maven-black.png
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/logos/build-by-maven-white.png
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/logos/maven-feather.png
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/dependencies/images/newwindow.png
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/descriptor.json
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/enhanced_cable_88320_appspot_com-aroundmeapi-v1-20150321204713-java-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/enhanced_cable_88320_appspot_com-aroundmeapi-v1-20150321204713-java-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-api-client-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-api-client-android-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-http-client-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-http-client-android-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-http-client-gson-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-http-client-jackson2-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-http-client-jdo-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/google-oauth-client-1.18.0-rc-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/gson-2.1-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs-sources/jackson-core-2.1.3-sources.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-api-client-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-api-client-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-api-client-android-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-api-client-android-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-android-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-android-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-gson-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-gson-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-jackson2-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-jackson2-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-jdo-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-http-client-jdo-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-oauth-client-1.18.0-rc.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/google-oauth-client-1.18.0-rc.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/gson-2.1.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/gson-2.1.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/jackson-core-2.1.3.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/jackson-core-2.1.3.jar.properties
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/libs/jsr305-1.3.9.jar
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/proguard-google-api-client.txt
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/readme.html
+* endpoint-libs/libdeviceinfoendpoint-v1/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/LICENSE.txt
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/aroundme.com-deviceinfoendpoint-v1-20150321204659-java-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/aroundme.com-deviceinfoendpoint-v1-20150321204659-java-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/classpath-include
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/css/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/css/maven-base.css
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/css/maven-theme.css
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/css/print.css
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/css/site.css
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-api-client-android-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-api-client-appengine-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-api-client-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-api-client-gson-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-api-client-jackson2-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-api-client-java6-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-api-client-servlet-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-http-client-android-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-http-client-appengine-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-http-client-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-http-client-gson-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-http-client-jackson2-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-http-client-jdo-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-oauth-client-appengine-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-oauth-client-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-oauth-client-java6-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-oauth-client-jetty-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/google-oauth-client-servlet-dependencies.html
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/close.gif
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/collapsed.gif
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/expanded.gif
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/external.png
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/icon_error_sml.gif
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/icon_info_sml.gif
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/icon_success_sml.gif
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/icon_warning_sml.gif
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/logos/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/logos/build-by-maven-black.png
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/logos/build-by-maven-white.png
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/logos/maven-feather.png
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/dependencies/images/newwindow.png
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/descriptor.json
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-api-client-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-api-client-android-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-android-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-gson-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-jackson2-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-jdo-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-oauth-client-1.18.0-rc-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/gson-2.1-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/jackson-core-2.1.3-sources.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-api-client-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-api-client-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-api-client-android-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-api-client-android-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-android-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-android-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-gson-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-gson-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-jackson2-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-jackson2-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-jdo-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-http-client-jdo-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-oauth-client-1.18.0-rc.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/google-oauth-client-1.18.0-rc.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/gson-2.1.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/gson-2.1.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/jackson-core-2.1.3.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/jackson-core-2.1.3.jar.properties
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs/jsr305-1.3.9.jar
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/proguard-google-api-client.txt
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/readme.html
+* endpoint-libs/libmessageEndpoint-v1/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/LICENSE.txt
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/aroundme.com-messageEndpoint-v1-20150321204650-java-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/aroundme.com-messageEndpoint-v1-20150321204650-java-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/classpath-include
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/css/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/css/maven-base.css
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/css/maven-theme.css
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/css/print.css
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/css/site.css
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-api-client-android-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-api-client-appengine-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-api-client-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-api-client-gson-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-api-client-jackson2-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-api-client-java6-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-api-client-servlet-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-http-client-android-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-http-client-appengine-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-http-client-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-http-client-gson-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-http-client-jackson2-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-http-client-jdo-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-oauth-client-appengine-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-oauth-client-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-oauth-client-java6-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-oauth-client-jetty-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/google-oauth-client-servlet-dependencies.html
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/close.gif
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/collapsed.gif
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/expanded.gif
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/external.png
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/icon_error_sml.gif
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/icon_info_sml.gif
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/icon_success_sml.gif
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/icon_warning_sml.gif
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/logos/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/logos/build-by-maven-black.png
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/logos/build-by-maven-white.png
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/logos/maven-feather.png
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/dependencies/images/newwindow.png
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/descriptor.json
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-api-client-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-api-client-android-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-http-client-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-http-client-android-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-http-client-gson-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-http-client-jackson2-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-http-client-jdo-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/google-oauth-client-1.18.0-rc-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/gson-2.1-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs-sources/jackson-core-2.1.3-sources.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-api-client-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-api-client-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-api-client-android-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-api-client-android-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-android-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-android-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-gson-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-gson-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-jackson2-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-jackson2-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-jdo-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-http-client-jdo-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-oauth-client-1.18.0-rc.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/google-oauth-client-1.18.0-rc.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/gson-2.1.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/gson-2.1.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/jackson-core-2.1.3.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/jackson-core-2.1.3.jar.properties
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/libs/jsr305-1.3.9.jar
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/proguard-google-api-client.txt
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/readme.html
+* ic_launcher-web.png
+From android-support-v7-appcompat:
+* README.txt
+From google-play-services_lib:
+* README.txt
+* proguard.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In android-support-v7-appcompat:
+* AndroidManifest.xml => androidsupportv7appcompat/src/main/AndroidManifest.xml
+* libs/android-support-v4.jar => androidsupportv7appcompat/libs/android-support-v4.jar
+* res/ => androidsupportv7appcompat/src/main/res/
+* src/ => androidsupportv7appcompat/src/main/java/
+In google-play-services_lib:
+* AndroidManifest.xml => googleplayservices_lib/src/main/AndroidManifest.xml
+* assets/ => googleplayservices_lib/src/main/assets/
+* libs/google-play-services.jar => googleplayservices_lib/libs/google-play-services.jar
+* lint.xml => googleplayservices_lib/lint.xml
+* res/ => googleplayservices_lib/src/main/res/
+* src/ => googleplayservices_lib/src/main/java/
+In AroundMe:
+* .apt_generated/ => AroundMe/src/main/java/
+* AndroidManifest.xml => AroundMe/src/main/AndroidManifest.xml
+* assets/ => AroundMe/src/main/assets/
+* endpoint-libs/libaroundmeapi-v1/aroundmeapi/aroundmeapi-v1-generated-source/ => AroundMe/src/main/java/
+* endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/deviceinfoendpoint-v1-generated-source/ => AroundMe/src/main/java/
+* endpoint-libs/libmessageEndpoint-v1/messageEndpoint/messageendpoint-v1-generated-source/ => AroundMe/src/main/java/
+* libs/gcm.jar => AroundMe/libs/gcm.jar
+* libs/google-api-client-1.18.0-rc.jar => AroundMe/libs/google-api-client-1.18.0-rc.jar
+* libs/google-api-client-android-1.18.0-rc.jar => AroundMe/libs/google-api-client-android-1.18.0-rc.jar
+* libs/google-http-client-1.18.0-rc.jar => AroundMe/libs/google-http-client-1.18.0-rc.jar
+* libs/google-http-client-android-1.18.0-rc.jar => AroundMe/libs/google-http-client-android-1.18.0-rc.jar
+* libs/google-http-client-gson-1.18.0-rc.jar => AroundMe/libs/google-http-client-gson-1.18.0-rc.jar
+* libs/google-http-client-jackson2-1.18.0-rc.jar => AroundMe/libs/google-http-client-jackson2-1.18.0-rc.jar
+* libs/google-http-client-jdo-1.18.0-rc.jar => AroundMe/libs/google-http-client-jdo-1.18.0-rc.jar
+* libs/google-oauth-client-1.18.0-rc.jar => AroundMe/libs/google-oauth-client-1.18.0-rc.jar
+* libs/gson-2.1.jar => AroundMe/libs/gson-2.1.jar
+* libs/jackson-core-2.1.3.jar => AroundMe/libs/jackson-core-2.1.3.jar
+* libs/jsr305-1.3.9.jar => AroundMe/libs/jsr305-1.3.9.jar
+* proguard-google-api-client.txt => AroundMe/proguard-google-api-client.txt
+* proguard-project.txt => AroundMe/proguard-project.txt
+* res/ => AroundMe/src/main/res/
+* src/ => AroundMe/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

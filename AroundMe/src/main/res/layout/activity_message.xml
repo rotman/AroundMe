@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/messageRelativeLayout"
+    android:orientation="vertical"
+    android:background="#ebebeb">
+
+    <ListView
+        android:id="@+id/messagesListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/form"
+        android:layout_alignParentTop="true"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:listSelector="@android:color/transparent">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/form"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+
+        <EditText
+            android:id="@+id/sendMessageEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@drawable/edittext"
+            android:layout_toLeftOf="@+id/buttonSend"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageButton
+            android:id="@+id/buttonSend"
+            android:src="@drawable/ic_send2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

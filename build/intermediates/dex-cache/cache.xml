@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-0995ee6e20bd5eb8b472706a287ece7d557216d6.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-http-client-android-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4c790c63bcdd9a34f6080c968c70d8af0f2cd2f">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-http-client-android-1.18.0-rc-7e07603d7f9ba6d5ea4e0afa824460d386e267bd.jar" />
+    </item>
+    <item
+        jar="C:\Users\rotem\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\library-2.4.0-cd58fc5147249560d599992bcdecebc2bfb862be.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\com.afollestad\material-dialogs\0.7.6.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c83e45c56a824bc54f276b2fa071f1914cceba7">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\classes-312c44d503c4a4d0bf05e4462170472f43189cd4.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\AroundMeAndroidStudio-master-master\googleplayservices_lib\unspecified\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9b63d9aba531aa7ff5dd30e0c872e8ca550b363a">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-play-services-291caf30ebad77203d5a78303b543782eedf29fc.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ee9ae2b87d57a33a7381c75d54db12bdf2995656">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\classes-e5e71d01c97e68d1501f03ba4e33922fcf3e267a.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-api-client-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="15feacc39aa29e06a63bf9041c6e5898f06bade9">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-api-client-1.18.0-rc-a8c51dd40e1a54da2c9e8033b716cf0cfaf91d28.jar" />
+    </item>
+    <item
+        jar="C:\Users\rotem\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\butterknife-7.0.1-241515a67aa8e978809397c5c97d59264ce33226.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\classes-71bdd2ff419e4b0e02165d24aabfe1eb5e1bb322.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\classes-bf8338eb2f23f4b0c8f41cec4a09072a4b1a2d85.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\gson-2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\gson-2.1-41f59e48be4eb84aef71b11dd08e0b8a5d66f176.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-api-client-android-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f30a5725d24b30b35dfeb0278a29233904e19c1">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-api-client-android-1.18.0-rc-38680deab9488504f745419c0c7804f10f43dca7.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-oauth-client-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="84bb5a223e42a5ba974ad51c9712253e662aa1bb">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-oauth-client-1.18.0-rc-28197203796477bd7d6fa67a3af87a153ddd0289.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-http-client-jdo-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e04b69acdd266c07a104ad8adfad87ae85b3e7fb">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-http-client-jdo-1.18.0-rc-2c9a27f6be0666d499604c6ed48d16838a31a255.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\classes-aaa4a5f45bac6896f890010fe79bee151a2f4ee8.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\classes-7239ab0dc2fe05caa2a462b49e9782dda8cab413.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-http-client-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="041f593dcc111f46f32676e9f6856430f1294ddf">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-http-client-1.18.0-rc-4336fb1d57c07098e9cdc1acdf2d63d0f1681cfe.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-http-client-jackson2-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="10eb3b8d9551a048ba3ec1b2a5ba7524cd01a45a">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.18.0-rc-18b2c424e7bd450b63118b60337dba346beb348d.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c62336e408d6dc3998013f3a4419f1895ad61b6b">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\gcm-67167d47a5423636fcd6ee6b19144a3a1ee5af08.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\jsr305-1.3.9-5e5537fb6819552b585576043bf7db02462a22d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\rotem\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-c360d90e0e05ff260ce6a9a93b9fd91f0a76ca95.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-84ebf2f384c72ff01170ac95acc873fe9df2c35b.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\google-http-client-gson-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1681d7019075f7217875b3a16c425582b476a75a">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\google-http-client-gson-1.18.0-rc-72698b0d435fa78fd5029228be4e606ffedb978f.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\exploded-aar\AroundMeAndroidStudio-master-master\googleplayservices_lib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2886b336c77a417982fce1cad9d3765097c7240">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\classes-e65176ffc5ddd706752b78feb9e8f37ba8d1deae.jar" />
+    </item>
+    <item
+        jar="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\libs\wikitudesdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7c5e5c9b24600f61ff5348ab0a7310e5d84138c7">
+        <dex dex="C:\around me project good\AroundMeAndroidStudio-master-master\AroundMe\build\intermediates\pre-dexed\debug\wikitudesdk-85552098f8b9df56f823915c59d1831bc45047a8.jar" />
+    </item>
+
+</items>

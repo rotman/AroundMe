@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:padding="10dp"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/settingsImageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6e6e6e"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="21sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/settingsNameTextView" />
+
+
+
+</LinearLayout><!-- From: file:/C:/around%20me%20project%20good/AroundMeAndroidStudio-master-master/AroundMe/src/main/res/layout/settings_list_item.xml -->

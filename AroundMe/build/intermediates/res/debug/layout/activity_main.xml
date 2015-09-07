@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.shenkar.aroundme.swipemenulistview.SwipeMenuListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/conversationsListView"
+        android:layout_centerHorizontal="true" />
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fabLists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_action_new"
+        fab:fab_colorNormal="#5fb864"
+        fab:fab_colorPressed="#469c57"
+        fab:fab_colorRipple="#73c877" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please click + to Start a Conversation"
+        android:visibility="gone"
+        android:id="@+id/emptyConversation"
+        android:layout_below="@+id/conversationsListView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp" />
+
+
+</RelativeLayout><!-- From: file:/C:/around%20me%20project%20good/AroundMeAndroidStudio-master-master/AroundMe/src/main/res/layout/activity_main.xml -->

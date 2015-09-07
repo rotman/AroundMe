@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:AroundMe="http://schemas.android.com/apk/res-auto">>
+
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="Settings"
+        AroundMe:showAsAction="always"/>
+
+    <item android:id="@+id/action_map"
+        android:icon="@drawable/ic_action_web_site"
+         android:title="@string/action_map"
+        AroundMe:showAsAction="always" />
+
+
+    <item android:id="@+id/action_AR"
+        android:icon="@drawable/ic_action_camera"
+        android:title="@string/action_AR"
+        AroundMe:showAsAction="always" />
+
+</menu><!-- From: file:/C:/around%20me%20project%20good/AroundMeAndroidStudio-master-master/AroundMe/src/main/res/menu/menu_main.xml -->
